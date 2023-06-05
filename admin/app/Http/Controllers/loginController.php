@@ -20,7 +20,7 @@ class loginController extends Controller
         $user = $request->input('user');
         $pass = $request->input('pass');
 
-        $countValue= adminModel::where('username','=',$user)->where('password','=',$pass)->count();
+        $countValue= adminModel::where('email','=',$user)->where('password','=',$pass)->count();
 
         if ($countValue==1) {
             $request->session()->put('user',$user);

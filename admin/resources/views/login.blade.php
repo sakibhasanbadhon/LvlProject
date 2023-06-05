@@ -23,12 +23,12 @@
 
               <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;"></h3>
               <div class="form-outline mb-4">
-                <input required="" name="email" value="" type="text"  class="mb-2 form-control form-control-lg" placeholder="Enter email address" />
+                <input required="" name="email" value="admin@gmail.com" type="text"  class="mb-2 form-control form-control-lg" />
                 <label class="form-label" for="form2Example18">User Name</label>
               </div>
   
               <div class="form-outline mb-4">
-                <input required="" name="password" value="" type="password"  class="mb-2 form-control form-control-lg" placeholder="Enter password" />
+                <input required="" name="password" value="12345678" type="password"  class="mb-2 form-control form-control-lg"  />
                 <label class="form-label" for="form2Example28">Password</label>
               </div>
   
